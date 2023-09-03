@@ -73,3 +73,9 @@ h1 {
     display: flex;
     justify-content: space-between;
   }
+
+  #completed:hover {
+    .todo-item{
+      text-decoration: line-through;
+    }
+  }
